@@ -9,9 +9,11 @@ body {
 }
 
 h1 {
+  display: flex;
+  justify-content: center;
   margin-top: 20px;
   margin-bottom: 0;
-  text-align: center;
+  /* text-align: center; */
   font-size: 80px;
   font-family: Brush Script MT, serif, sans-serif;
   font-weight: lighter;
@@ -86,4 +88,14 @@ h1 {
 
 .form .login_form {
   display: none;
+}
+
+/* Media Queries */
+
+@media (max-width 400px) {
+  h1 {
+    width 70%;
+    max-width: 100px;
+    word-wrap: break-word;
+  }
 }
