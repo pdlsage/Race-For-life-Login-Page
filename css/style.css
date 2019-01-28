@@ -1,0 +1,89 @@
+
+
+body {
+  background: url("../img/maxresdefault.jpg") no-repeat;
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  margin-top: 20px;
+  margin-bottom: 0;
+  text-align: center;
+  font-size: 80px;
+  font-family: Brush Script MT, serif, sans-serif;
+  font-weight: lighter;
+  color: #FAFAD2;
+
+}
+
+.login_page {
+  width: 360px;
+  padding: 2% 0 0;
+  margin: auto;
+}
+
+.form {
+  position: relative;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+}
+
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 1;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 16px;
+  color: #fff;
+}
+
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #FF4500;
+  width: 100%;;
+  border: 0;
+  padding: 15px;
+  color: #FAFAD2;;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 12px;
+
+}
+
+.form button:hover, .form button:active {
+  background: #FFA500;
+}
+
+.form .message {
+  text-decoration: none;
+  color: aliceblue;
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+.form .message a {
+  color: #FFA500;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+
+.form .login_form {
+  display: none;
+}
