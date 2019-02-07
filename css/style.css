@@ -1,5 +1,5 @@
 
-/* Site Body Styling */
+/*  Body Styling */
 
 body {  
   background: url("../img/maxresdefault.jpg") no-repeat;
@@ -105,6 +105,8 @@ h1 {
 .form .login_form {
   display: none;
 }
+
+
 
 /* Media Queries for Mobile Devices*/
 
