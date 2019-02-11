@@ -39,7 +39,8 @@ CUSTOM CSS CLASSES:
    
 9. Media queries
    A media query was used to set the max-width for smaller screens for the .form class.
-   A second media query was used to set the min-width for larger screens for the h1 element.
+   A second media query was used to create a breakpoint with the min-width for larger screens for the h1 element.
+   A thisrd media query was used to create a breakpoint max-width at 600px for the h1 element.
    
    
  
