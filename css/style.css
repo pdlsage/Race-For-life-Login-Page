@@ -2,7 +2,7 @@
 /*  Body Styling */
 
 body {  
-  background: url("../img/maxresdefault.jpg") no-repeat;
+  background: url("../img/Louisvilledownload.jpg") no-repeat;
   height: 100vh;
   background-size: cover;
   background-position: center;
@@ -20,7 +20,7 @@ h1 {
   font-size: 5em;
   font-family: Brush Script MT, sans-serif;
   font-weight: lighter;
-  color: rgb(218, 219, 143);
+  color:#fff;
 
 }
 
